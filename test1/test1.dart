@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:math' show Random;
 
 main() async {
-  print('Compute π using the Monte Carlo method.');
+  print('Compute π using the Monte Carlo method.1');
   //take 异步操作次数个数
   await for (var estimate in computePi().take(10)) {
     print('π ≅ $estimate');
