@@ -1,3 +1,5 @@
+//需要理解!
+
 // Abstract classes can't be instantiated.
 abstract class Item {
   use();
